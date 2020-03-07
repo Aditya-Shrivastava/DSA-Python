@@ -13,6 +13,8 @@
             if leftElement > rightElement
                 swap leftElement and rightElement
                 swapped = true
+                if swapped == false
+                    break
     end
 
     Time Complexity: O(n^2)
